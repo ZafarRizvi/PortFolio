@@ -377,7 +377,7 @@ body::-webkit-scrollbar {
 
 .contact-box {
 	width: 20%;
-	padding: 30px;
+	padding: 10px 30px;
 	border: 2px solid rgb(204, 30, 30);
 	border-radius: 20px;
 	background-color: rgba(255, 255, 255, 0.1);
@@ -393,11 +393,19 @@ body::-webkit-scrollbar {
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
-.contact-box:hover > .whatsapp {
+.contact-box:hover .whatsapp {
 	color: rgb(17, 169, 17);
+}
+
+.phone {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .whatsapp {
 	padding: 0px;
+	margin: 25px;
 	font-size: 50px;
 }
